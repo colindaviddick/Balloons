@@ -1,0 +1,44 @@
+body {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-image: linear-gradient(to bottom, rgb(0, 153, 255), cyan);
+    background-attachment: fixed;
+}
+
+.balloons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    height: 200vh;
+}
+
+.top {
+    margin-top: 10em;
+    margin-bottom: auto;
+    z-index: 1;
+}
+
+.middle {
+    margin: auto;
+    width: 100%;
+    z-index: 3;
+}
+
+.bottom {
+    margin-top: auto;
+    width: 130%;
+    z-index: 5;
+}
+.seconddiv {
+    height: 100vh;
+}
+#heading {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    font-size: 20em;
+    z-index: 3;
+    font-family: 'Poppins', sans-serif;
+}
+.centredcontent {
+    transform: translateY(-50vh);
+}

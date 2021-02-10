@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/dist/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <title>Parallax Balloons</title>
+</head>
+
+<body>
+    <div class="balloons">
+        <img src="/images/blueballoon.png" alt="" class="top rellax" data-rellax-speed="-3">
+        <img src="/images/pinkballoon.png" alt="" class="middle rellax" data-rellax-speed="1">
+        <img src="/images/blueballoon.png" alt="" class="bottom rellax" data-rellax-speed="3">
+        <img src="/images/yellowballoon.png" alt="" class="middle rellax" data-rellax-speed="-1">
+        <img src="/images/pinkballoon.png" alt="" class="top rellax" data-rellax-speed="-4">
+        <img src="/images/yellowballoon.png" alt="" class="bottom rellax" data-rellax-speed="4">
+        <h1 id="heading" class="rellax" data-rellax-speed="8" style="transform: translateY(-1.8em)">BALLOONS!</h1>
+    </div>
+    <div class="centredcontent">
+        <h1>Example Heading</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti fugiat distinctio nulla, asperiores animi nemo perspiciatis voluptas quis quas quisquam, facilis libero beatae itaque? Unde provident quae repellat. Nam, a!</p>
+    </div>
+    <div class="balloons">
+        <img src="/images/blueballoon.png" alt="" class="top rellax" data-rellax-speed="-3">
+        <img src="/images/yellowballoon.png" alt="" class="bottom rellax" data-rellax-speed="4">
+        <img src="/images/pinkballoon.png" alt="" class="middle rellax" data-rellax-speed="1">
+        <img src="/images/pinkballoon.png" alt="" class="top rellax" data-rellax-speed="-4">
+        <img src="/images/blueballoon.png" alt="" class="bottom rellax" data-rellax-speed="3">
+        <img src="/images/yellowballoon.png" alt="" class="middle rellax" data-rellax-speed="-1">
+    </div>
+    <div class="seconddiv"></div>
+    <script src="/node_modules/rellax/rellax.min.js"></script>
+    <script>
+        //default JS Setting
+        var rellax = new Rellax('.rellax', {
+            breakpoints: [576, 768, 1201]
+        });
+    </script>
+</body>
+
+</html>?>
